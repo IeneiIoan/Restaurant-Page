@@ -1,3 +1,69 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    
+    font-family: Verdana,sans-serif;
+    background-image: url('/src/icon.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+}
+
+#menu, #contact {
+    font-family: Verdana,sans-serif;
+    color:white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#menu:hover, #contact:hover {
+    color:black;
+    background-color: rgb(207, 205, 205);
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+    font-size: 50px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px; 
+}
+
+a {
+    color: white;
 }
